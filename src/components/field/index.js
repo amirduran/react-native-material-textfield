@@ -223,6 +223,7 @@ export default class TextField extends PureComponent {
 
     let options = {
       toValue: this.focusState(),
+      useNativeDriver: true,
       duration,
     };
 
@@ -235,6 +236,7 @@ export default class TextField extends PureComponent {
 
     let options = {
       toValue: this.labelState(),
+      useNativeDriver: true,
       duration,
     };
 
