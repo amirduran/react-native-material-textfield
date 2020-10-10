@@ -236,7 +236,7 @@ export default class TextField extends PureComponent {
 
     let options = {
       toValue: this.labelState(),
-      useNativeDriver: tfalserue,
+      useNativeDriver: false,
       duration,
     };
 
